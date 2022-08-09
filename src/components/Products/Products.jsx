@@ -20,9 +20,12 @@ export const Products = () => {
         return(
           <ProductCard 
           key={product.id}
+          id={product.id}
           image={product.image}
           title={product.title} 
-          price={product.price}/>
+          price={product.price}
+          />
+          
         )
       })}
       
